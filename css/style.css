@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* laying the videos in a grid format just as youtube */
+#videos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* video backgrounds */
+.video {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* sizing for thumbnails */
+.video img {
+    width: 100%;
+    height: auto;
+}
+
+/* styling the video titles */
+.video h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
